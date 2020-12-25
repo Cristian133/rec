@@ -1,25 +1,4 @@
 #!/usr/bin/env python3
-#
-# Copyright (C) 2019  Cristian Andrione <cristian.andrione@gmail.com>
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version# # .
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-#
-#
-# Modulo para generar Remito Electrónico Cárnico AFIP v3.0
-# Remito de Carnes y subproductos derivados de la faena de bovinos y porcinos
-# Resolución General 4256/18 y Resolución General 4303/18.
-
 
 import os, base64
 from zeep import Client
